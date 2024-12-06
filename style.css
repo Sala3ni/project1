@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa; /* Soft off-white background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #1a1a1a; /* Dark gray for better readability */
+}
+
+/* Result Container */
+.result_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9fafb; /* Very light gray for subtle contrast */
+    border: 1px solid #cbd5e0; /* Light gray-blue border */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.result {
+    font-size: 16px;
+    color: #4a5568; /* Muted dark gray for text */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 80%;
+}
+
+#clipboard {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #2b6cb0; /* Blue for interaction elements */
+    transition: color 0.3s ease;
+}
+
+#clipboard:hover {
+    color: #2c5282; /* Darker blue on hover */
+}
+
+/* Settings */
+.settings {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #1a202c; /* Rich gray for labels */
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    background-color: #edf2f7; /* Light gray background */
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.btn {
+    background: #3182ce; /* Primary blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #2b6cb0; /* Slightly darker blue */
+}
+
+.btn-large {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+}
